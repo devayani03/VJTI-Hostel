@@ -6,7 +6,7 @@ import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import BlockA from './components/pages/BlockA';
 import BlockE from './components/pages/BlockE';
 import Blocks from './components/pages/Blocks';
-import ContactUs from './components/pages/ContactUs';
+ import ContactUs from './components/pages/ContactUs';
 import SignUp from './components/pages/SignUp';
 import Home from './components/pages/Home';
 import Events from './components/pages/Events';
@@ -21,7 +21,7 @@ function App() {
       <Route path='/blockA' element={<BlockA/>}/>
       <Route path='/blockE' element={<BlockE/>}/>
       <Route path='/blocks' element={<Blocks/>}/>
-      <Route path='/contactus' element={<ContactUs/>}/>
+       <Route path='/contact' element={<ContactUs/>}/> 
       <Route path='/signup' element={<SignUp/>}/>
       <Route path='/events' element={<Events/>}/>
     </Routes>
